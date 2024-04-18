@@ -1,0 +1,17 @@
+//Mapa 
+$breakpoints: (
+    sm : 480px,
+    md :600px,
+);
+
+@mixin media-up($breakpoint){
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+
+
+
+
+
